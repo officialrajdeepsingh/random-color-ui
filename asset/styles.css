@@ -1,0 +1,105 @@
+.divOuter {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.Boxblock {
+  background-color: rgb(5, 0, 0);
+  width: 350px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 10px;
+  transform: translate(-50%);
+  border-radius: 10px;
+}
+.hideicon {
+  rotate: 10px;
+}
+
+.colorcopybutton {
+  display: flex;
+  flex-direction: row;
+}
+.colorbox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: scroll;
+  margin-top: 5px;
+  padding: 8px 0px;
+}
+.colorvalebutton {
+  width: 80px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+  border-color: transparent;
+}
+.colorvaleboxtext {
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: auto;
+}
+.copyall {
+  width: 180px;
+  margin: 10px;
+  border-color: black;
+  border-radius: 10px;
+  height: 20px;
+  border-width: 1.2px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.divOuter {
+  cursor: pointer;
+}
+
+.cardbox {
+  display: flex;
+  width: 260px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: white 1px 1px 1px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  justify-content: space-between;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.button {
+  width: 100px;
+  border-color: #7e0ff5;
+  border-width: 1px;
+  margin: 5px 5px;
+}
