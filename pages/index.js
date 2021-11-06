@@ -6,6 +6,7 @@ import randomColor from "randomcolor";
 // import Npm clipboard-copy Package
 import copy from "clipboard-copy";
 
+import Head from "../components/head";
 const Colors = [];
 export default function IndexPage() {
   const [bgColor, setbigColor] = useState("");
@@ -51,6 +52,8 @@ export default function IndexPage() {
 
   return (
     <>
+      <Head />
+
       {/*  Sucessfull Message Show block Inside Your Screen*/}
       {display ? (
         <div
@@ -91,7 +94,7 @@ export default function IndexPage() {
           </button>
         </div>
       ) : (
-        <p> no color </p>
+        <p className="noColor"> No color </p>
       )}
       {/* Mouse Hover color Change Inside You Screen */}
       <div className="divOuter">
