@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 // import Npm randomcolor Package
 import randomColor from "randomcolor";
@@ -6,7 +6,8 @@ import randomColor from "randomcolor";
 // import Npm clipboard-copy Package
 import copy from "clipboard-copy";
 
-import Head from "../components/head";
+import Layout from "../components/Layout";
+
 const Colors = [];
 export default function IndexPage() {
   const [bgColor, setbigColor] = useState("");
@@ -50,10 +51,12 @@ export default function IndexPage() {
     setdisplay(true);
   }
 
+  useEffect(() => {
+    let color = randomColor();
+    setbigColor(color);
+  }, []);
   return (
-    <>
-      <Head />
-
+    <Layout>
       {/*  Sucessfull Message Show block Inside Your Screen*/}
       {display ? (
         <div
@@ -93,9 +96,7 @@ export default function IndexPage() {
             Copy All Color{" "}
           </button>
         </div>
-      ) : (
-        <p className="noColor"> No color </p>
-      )}
+      ) : null}
       {/* Mouse Hover color Change Inside You Screen */}
       <div className="divOuter">
         <div
@@ -118,6 +119,6 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
-    </>
+    </Layout>
   );
 }

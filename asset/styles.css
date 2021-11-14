@@ -3,7 +3,10 @@
   width: 100vw;
   display: flex;
 }
-
+#__next {
+  margin: 0px;
+  padding: 0px;
+}
 .App {
   height: 100%;
   width: 100%;
@@ -15,6 +18,34 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   overflow-y: scroll;
+}
+
+.footer {
+  background-color: rgb(37, 35, 31);
+  width: 70%;
+  position: relative;
+  padding: 5px;
+  left: 50%;
+  top: 10px;
+  transform: translate(-50%);
+}
+.handbardericon {
+  padding: 10px 0px 0px 10px;
+  width: 50px;
+  position: absolute;
+  margin: 10px 0px 0px 10px;
+}
+.nav {
+  margin: 10px, auto;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.list {
+  margin: 5px;
 }
 
 .Boxblock {
@@ -92,7 +123,7 @@ body {
   border-radius: 10px;
   padding: 10px;
   background-color: white;
-  position: absolute;
+  position: relative;
   border-radius: 10px;
   border-color: transparent;
   box-shadow: white 1px 1px 1px;

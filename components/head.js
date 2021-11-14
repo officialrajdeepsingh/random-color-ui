@@ -15,7 +15,7 @@ export default function (require) {
         content="Color, Color design , Color tool, color theme "
       />
 
-      <meta http-equiv="content-language" content="en" />
+      <meta httpEquiv="content-language" content="en" />
 
       <meta
         property="og:image"
