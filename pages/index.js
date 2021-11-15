@@ -144,6 +144,8 @@ export default function IndexPage() {
                   version="1.1"
                   viewBox="0 0 32 32"
                   xmlSpace="preserve"
+                  height="25px"
+                  width="25px"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
@@ -160,6 +162,8 @@ export default function IndexPage() {
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                   x="0px"
                   y="0px"
+                  height="25px"
+                  width="25px"
                   viewBox="0 0 50 50"
                   style={{ enableBackground: 'new 0 0 50 50' }}
                   xmlSpace="preserve"
