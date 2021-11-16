@@ -5,11 +5,11 @@ export default function (require) {
     <Head>
       <title>Random color tool </title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
       <meta
         name="google-site-verification"
         content="yPkdm4nHAAcIg8Yf70iuM1obAfX96woyygtkcR_teOM"
       />
-
       <meta
         name="description"
         content="Random Color tool help to genrate random color base on your click. every time when you click on button random color genrate a color. "
