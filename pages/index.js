@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import fs from 'fs';
+
 
 // import Npm randomcolor Package
 import randomColor from 'randomcolor';
@@ -8,13 +8,7 @@ import randomColor from 'randomcolor';
 import copy from 'clipboard-copy';
 
 import Layout from '../components/Layout';
-// fs.writeFile('/Users/joe/test.txt', 'content', err => {
-//   if (err) {
-//     console.error(err)
-//     return
-//   }
-//   console.log(' file success full ')
-// })
+
 
 const Colors = [];
 export default function IndexPage() {
