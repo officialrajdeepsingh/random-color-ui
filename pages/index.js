@@ -7,10 +7,10 @@ import randomColor from 'randomcolor';
 // import Npm clipboard-copy Package
 import copy from 'clipboard-copy';
 
-import Layout from '../components/Layout';
 
 
 const Colors = [];
+
 export default function IndexPage() {
   const [bgColor, setbigColor] = useState('');
 
@@ -57,8 +57,10 @@ export default function IndexPage() {
     let color = randomColor();
     setbigColor(color);
   }, []);
+
   return (
-    <Layout>
+   <>
+   
       {/*  Sucessfull Message Show block Inside Your Screen*/}
       {display ? (
         <div
@@ -72,6 +74,7 @@ export default function IndexPage() {
       ) : (
         ''
       )}
+
       {Colors.length > 0 ? (
         <div className="colorcopybutton">
           <div className="colorbox">
@@ -175,6 +178,6 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
-    </Layout>
+      </>
   );
 }

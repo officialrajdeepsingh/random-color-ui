@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://randomcolor.design/
+
+# Sitemaps
+Sitemap: https://randomcolor.design/sitemap.xml

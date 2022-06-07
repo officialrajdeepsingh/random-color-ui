@@ -3,6 +3,7 @@
   width: 100vw;
   display: flex;
 }
+
 #__next {
   margin: 0px;
   padding: 0px;
@@ -23,6 +24,7 @@ body {
 .footer {
   background-color: rgb(37, 35, 31);
   width: 100%;
+  padding: 20px;
 }
 
 .nav {
