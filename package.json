@@ -19,5 +19,9 @@
   },
   "license": "MIT",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-next": "12.1.6"
+  }
 }
