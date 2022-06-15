@@ -6,7 +6,7 @@ import { DefaultSeo } from 'next-seo';
 function MyApp({ Component, pageProps }) {
   return (<>
     <DefaultSeo {...SEO} />
-       <Component {...pageProps} />;
+    <Component {...pageProps} />;
     <Footer />
   </>)
 }
